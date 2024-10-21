@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="李睿蕊的个人简介">
+    <title>李睿蕊的个人介绍</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-weight: bold;
+        }
+        .profile-section {
+            margin-top: 30px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin: 5px;
+            display: inline-block;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .gallery img {
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>李睿蕊的个人主页</h1>
+        <p>岭南大学 - 融合科技理学</p>
+    </header>
+
+    <main class="container profile-section">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./images/1.jpg" class="rounded-circle img-fluid" alt="李睿蕊的照片" width="200">
+            </div>
+            <div class="col-md-8">
+                <h2>关于我</h2>
+                <p>🎀日夜颠倒头发少，单纯好骗恋爱脑，会背九九乘法表，下雨就往家里跑，搭讪只会说你好。</p>
+                <p>性别: 女 | 爱好: 玩 | 崇尚: 自由</p>
+                <p>Email: <a href="mailto:Liskrui0504@outlook.com">Liskrui0504@outlook.com</a></p>
+            </div>
+        </div>
+
+        <div class="skills mt-5">
+            <h3>技能</h3>
+            <ul class="d-flex flex-wrap">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>机器学习</li>
+                <li>数据分析</li>
+            </ul>
+        </div>
+
+
+
+        <div class="gallery mt-5">
+            <h3>照片集锦</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="./images/2.jpg" class="img-fluid" alt="照片1">
+                </div>
+                <div class="col-sm-4">
+                    <img src="./images/3.jpg" class="img-fluid" alt="照片2">
+                </div>
+                <div class="col-sm-4">
+                    <img src="./images/4.jpg" class="img-fluid" alt="照片3">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 李睿蕊. 保留所有权利.
+    </footer>
+
+    <!-- 引入Bootstrap JS 和 Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
